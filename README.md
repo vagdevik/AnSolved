@@ -20,11 +20,11 @@ Williams Bland Jr
 
 #### Sample Output:
 
-1. Vladimir Frometa
+-  Vladimir Frometa
    
    Vladimir A Frometa
 
 
-2. Williams Bland
+-  Williams Bland
    
    Williams Bland Jr
