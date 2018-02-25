@@ -1,5 +1,4 @@
 import csv
-import numpy
 import Levenshtein
 
 def read_data(): 
