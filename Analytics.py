@@ -1,4 +1,5 @@
 import csv
+import numpy
 import Levenshtein
 
 def read_data(): 
@@ -16,6 +17,7 @@ def find_groups():
 	flag = [0]*l
 	for i in range(0, l):
 		if flag[i] == 0:
+			print 'Group :'
 			print data[i]
 			for j in range(i+1, l):
 				if flag[j] == 0:
@@ -27,7 +29,6 @@ def find_groups():
 			count+=1
 			flag[i] = 1
 			print '\n'
-	print count
 	
 def match_names(name1, name2):
 	name1_words = [w.strip('.') for w in name1.split(' ')]
